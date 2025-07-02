@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="403" id="KGk-i7-Jjw" customClass="CommitmentsCell" customModule="Goodz" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="403"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="403"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="epI-hC-073">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="379"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="F72-SD-yJy">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="379"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Rh0-Rw-jtL">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="183"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Best Price guaranteed" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EqQ-3u-GvZ">
+                                                <rect key="frame" x="0.0" y="0.0" width="320" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2X0-pQ-bL7">
+                                                <rect key="frame" x="0.0" y="30.333333333333329" width="320" height="152.66666666666669"/>
+                                                <string key="text">Your satisfaction is our priority, and we believe that getting the best value for your money should be effortless when you choose to shop with us.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" image="group-1" translatesAutoresizingMaskIntoConstraints="NO" id="Dqz-dt-ndZ">
+                                        <rect key="frame" x="0.0" y="199" width="320" height="180"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="F72-SD-yJy" firstAttribute="top" secondItem="epI-hC-073" secondAttribute="top" id="6b5-10-hbM"/>
+                            <constraint firstAttribute="trailing" secondItem="F72-SD-yJy" secondAttribute="trailing" id="SW4-MD-lwp"/>
+                            <constraint firstAttribute="bottom" secondItem="F72-SD-yJy" secondAttribute="bottom" id="TWN-9F-Pi5"/>
+                            <constraint firstItem="F72-SD-yJy" firstAttribute="leading" secondItem="epI-hC-073" secondAttribute="leading" id="yYZ-Ui-Kjp"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="epI-hC-073" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="0gF-tR-GUs"/>
+                    <constraint firstAttribute="bottom" secondItem="epI-hC-073" secondAttribute="bottom" constant="24" id="JBP-24-Y6Z"/>
+                    <constraint firstAttribute="trailing" secondItem="epI-hC-073" secondAttribute="trailing" id="Sp9-pp-0jr"/>
+                    <constraint firstItem="epI-hC-073" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="eFY-RN-8v6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="imgNews" destination="Dqz-dt-ndZ" id="lnP-Zx-Es1"/>
+                <outlet property="lblDescription" destination="2X0-pQ-bL7" id="U9S-0O-1on"/>
+                <outlet property="lblTitle" destination="EqQ-3u-GvZ" id="wxR-f8-Mrg"/>
+            </connections>
+            <point key="canvasLocation" x="97.70992366412213" y="114.43661971830987"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="group-1" width="382" height="180"/>
+    </resources>
+</document>

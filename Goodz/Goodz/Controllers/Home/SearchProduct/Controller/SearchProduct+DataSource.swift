@@ -1,0 +1,75 @@
+//
+//  SearchProduct+DataSource.swift
+//  Goodz
+//
+//  Created by Akruti on 31/01/24.
+//
+
+import Foundation
+import UIKit
+
+// MARK: CollectionView DataSource Methods
+extension SearchProductVC: UICollectionViewDataSource {
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        
+        switch collectionView {
+        case clvFilter:
+            return arrFilter.count
+        case clvProductList:
+            return self.viewModel.numberOfRows()
+        default:
+            return 0
+        }
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        switch collectionView {
+        case clvFilter:
+            let cell = collectionView.dequeueReusableCell(for: indexPath) as CategoryViewCell
+            let data = arrFilter[indexPath.row]
+            
+            if data.icon == nil {
+                cell.ivCategory.isHidden = true
+                cell.ivDropDown.isHidden = false
+            } else {
+                cell.ivCategory.image = data.icon
+                cell.ivCategory.isHidden = false
+                cell.ivDropDown.isHidden = true
+            }
+            
+            cell.lblTitle.text = data.title
+            
+            /// Default first item selected
+            if data.isSelected ?? false {
+                cell.viewBg.backgroundColor = .themeGreen
+                cell.ivCategory.tintColor = .white
+                cell.lblTitle.textColor = .white
+                cell.ivDropDown.tintColor = .white
+            } else {
+                cell.viewBg.backgroundColor = .white
+                cell.ivCategory.tintColor = .black
+                cell.lblTitle.textColor = .black
+                cell.ivDropDown.tintColor = .black
+            }
+            
+            return cell
+        case clvProductList:
+            let cell = collectionView.dequeueReusableCell(for: indexPath) as MyProductCell
+            let data = self.viewModel.setSubCategories(row: indexPath.row)
+            cell.setProductData(data: data)
+            cell.vwLike.superview?.addTapGesture {
+                self.viewModel.addRemoveFavourite(isFav: (data.isFav == Status.zero.rawValue ? Status.one.rawValue : Status.zero.rawValue) ?? Status.zero.rawValue, productId: data.productID ?? "") { isDpne in
+                    if isDpne {
+                        self.page = 1
+                        self.apiCalling()
+                    }
+                }
+                
+            }
+            return cell
+        default:
+            return UICollectionViewCell()
+        }
+    }
+}

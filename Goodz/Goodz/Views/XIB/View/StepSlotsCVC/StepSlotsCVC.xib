@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="StepSlotsCVC" id="T6y-rU-098" customClass="StepSlotsCVC" customModule="Goodz" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="FI9-Mt-sUw">
+                <rect key="frame" x="0.0" y="0.0" width="280" height="120"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bi5-ek-IWF">
+                        <rect key="frame" x="5" y="0.0" width="270" height="120"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="UoH-r1-A4a">
+                                <rect key="frame" x="73" y="39.666666666666671" width="124" height="40.666666666666671"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="XX/XX/XX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTH-cW-1pD">
+                                        <rect key="frame" x="0.0" y="0.0" width="124" height="20.333333333333332"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="XX am to XX am" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tn4-1k-ESg">
+                                        <rect key="frame" x="0.0" y="20.333333333333336" width="124" height="20.333333333333336"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="ThemeBG"/>
+                        <constraints>
+                            <constraint firstItem="UoH-r1-A4a" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Bi5-ek-IWF" secondAttribute="leading" constant="5" id="DQV-zE-SiZ"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="UoH-r1-A4a" secondAttribute="trailing" constant="5" id="Fi2-qR-biI"/>
+                            <constraint firstItem="UoH-r1-A4a" firstAttribute="centerY" secondItem="Bi5-ek-IWF" secondAttribute="centerY" id="V1g-0g-FmN"/>
+                            <constraint firstItem="UoH-r1-A4a" firstAttribute="centerX" secondItem="Bi5-ek-IWF" secondAttribute="centerX" id="iMk-8H-xZE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Bi5-ek-IWF" secondAttribute="bottom" id="0gM-NQ-Bnr"/>
+                    <constraint firstItem="Bi5-ek-IWF" firstAttribute="top" secondItem="FI9-Mt-sUw" secondAttribute="top" id="ESy-Uj-diM"/>
+                    <constraint firstAttribute="trailing" secondItem="Bi5-ek-IWF" secondAttribute="trailing" constant="5" id="HsD-9a-Drh"/>
+                    <constraint firstItem="Bi5-ek-IWF" firstAttribute="leading" secondItem="FI9-Mt-sUw" secondAttribute="leading" constant="5" id="xqM-b1-igr"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="280" height="120"/>
+            <connections>
+                <outlet property="backView" destination="Bi5-ek-IWF" id="h7y-8e-zJc"/>
+                <outlet property="dateLbl" destination="GTH-cW-1pD" id="Hsb-CW-Pg3"/>
+                <outlet property="timeLbl" destination="tn4-1k-ESg" id="Bjg-Kh-N4S"/>
+            </connections>
+            <point key="canvasLocation" x="332.82442748091603" y="-100"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="ThemeBG">
+            <color red="0.95686274509803926" green="0.96470588235294119" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

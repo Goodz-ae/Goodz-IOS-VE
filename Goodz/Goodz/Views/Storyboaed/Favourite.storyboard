@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--My FavouriteVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="MyFavouriteVC" id="Y6W-OH-hqX" customClass="MyFavouriteVC" customModule="Goodz" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pzd-BS-Czt" customClass="AppStatusView" customModule="Goodz" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="kkj-Cn-6YQ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vem-Is-OGV">
+                                <rect key="frame" x="0.0" y="103" width="393" height="749"/>
+                                <subviews>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" contentInsetAdjustmentBehavior="never" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="tnn-za-1RM">
+                                        <rect key="frame" x="15" y="50" width="363" height="657"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="d05-Gm-myD">
+                                            <size key="itemSize" width="128" height="128"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="15"/>
+                                        </collectionViewFlowLayout>
+                                        <cells/>
+                                    </collectionView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K3N-KQ-h3E">
+                                        <rect key="frame" x="15" y="10" width="74" height="30"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Remove all"/>
+                                        <connections>
+                                            <action selector="actionBtnRemoveAll:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="oQZ-ky-FWS"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" name="ThemeBG"/>
+                                <constraints>
+                                    <constraint firstItem="K3N-KQ-h3E" firstAttribute="top" secondItem="Vem-Is-OGV" secondAttribute="top" constant="10" id="50o-Kk-s8j"/>
+                                    <constraint firstItem="K3N-KQ-h3E" firstAttribute="leading" secondItem="Vem-Is-OGV" secondAttribute="leading" constant="15" id="JEL-1S-o9q"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="tnn-za-1RM" secondAttribute="bottom" id="SJh-Fn-CJ2"/>
+                                    <constraint firstItem="tnn-za-1RM" firstAttribute="top" secondItem="K3N-KQ-h3E" secondAttribute="bottom" constant="10" id="d8W-UW-yEA"/>
+                                    <constraint firstItem="tnn-za-1RM" firstAttribute="leading" secondItem="Vem-Is-OGV" secondAttribute="leading" constant="15" id="hpK-HO-Sd1"/>
+                                    <constraint firstAttribute="trailing" secondItem="tnn-za-1RM" secondAttribute="trailing" constant="15" id="wml-Fz-L10"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Vem-Is-OGV" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="K2Q-nu-Kon"/>
+                            <constraint firstItem="Vem-Is-OGV" firstAttribute="top" secondItem="pzd-BS-Czt" secondAttribute="bottom" id="OgG-fC-cjK"/>
+                            <constraint firstAttribute="bottom" secondItem="Vem-Is-OGV" secondAttribute="bottom" id="SNv-kc-OQP"/>
+                            <constraint firstItem="Vem-Is-OGV" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="ZsL-0R-149"/>
+                            <constraint firstItem="pzd-BS-Czt" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="Zvk-S2-fZI"/>
+                            <constraint firstItem="pzd-BS-Czt" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="vaJ-m0-VmQ"/>
+                            <constraint firstItem="pzd-BS-Czt" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="wZA-uk-vgY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="appTopView" destination="pzd-BS-Czt" id="6pe-Ux-oSa"/>
+                        <outlet property="btnRemoveAll" destination="K3N-KQ-h3E" id="g5u-fJ-oSZ"/>
+                        <outlet property="collectionProductList" destination="tnn-za-1RM" id="TD0-35-sTN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="54" y="-34"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="ThemeBG">
+            <color red="0.95686274509803926" green="0.96470588235294119" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

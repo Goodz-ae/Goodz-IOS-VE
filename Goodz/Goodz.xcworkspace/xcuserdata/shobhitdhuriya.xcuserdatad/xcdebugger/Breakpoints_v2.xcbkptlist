@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "DCAAE00E-F57A-41E2-8E31-4C53ACF9B834"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "828D8F30-24B1-4F2C-880F-053483CD65A8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "310"
+            endingLineNumber = "310"
+            landmarkName = "rawDataRequest(with:rawData:responseModel:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC98E850-61F5-4317-B520-36713D2D0488"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "323"
+            endingLineNumber = "323"
+            landmarkName = "rawDataRequest(with:rawData:responseModel:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "958B5B4E-2921-4BFC-B4AF-5A280D20F1F7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "514"
+            endingLineNumber = "514"
+            landmarkName = "multiFormDataRequest(with:responseModel:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F55B7D36-1E57-4129-86AD-403A33A2D25C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "527"
+            endingLineNumber = "527"
+            landmarkName = "multiFormDataRequest(with:responseModel:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50E68F47-7AE4-4EA9-A5CA-2F2888D9D44A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/Views/XIB/CollectionView/MyProduct/MyProductCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "setOtherUserStoreDetailsData(data:type:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4615457F-0E20-4D64-A79B-95E1D7790C33"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/Views/XIB/CollectionView/MyProduct/MyProductCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "230"
+            endingLineNumber = "230"
+            landmarkName = "setFavProductData(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F5E855A1-D347-41B9-A0B2-2E5878B77C28"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/Views/XIB/CollectionView/MyProduct/MyProductCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "265"
+            endingLineNumber = "265"
+            landmarkName = "setBundleProducts(data:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E94A09E2-1484-4C25-989E-130883B0C8AD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/Controllers/Home/ProductDetail/Controller/ProductDetailVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "657"
+            endingLineNumber = "657"
+            landmarkName = "actionShare(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C67DEFAC-0A82-40FD-BF78-E5856A16C599"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/Controllers/MyAccount/Cart nd Checkout/OrderTrack/Repo/OrderTrackRepo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "trackOrderStatusAPI(orderID:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C67DEFAC-0A82-40FD-BF78-E5856A16C599 - 31c02a67bdf293d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Goodz_Stage.OrderTrackRepo.trackOrderStatusAPI(orderID: Swift.String, _: (Swift.Bool, Swift.Optional&lt;Swift.Array&lt;Goodz_Stage.OrderTrackDataModel&gt;&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Goodz Stage.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shobhitdhuriya/Documents/GitHub/GOODZVELocal/Goodz/Goodz/Controllers/MyAccount/Cart%20nd%20Checkout/OrderTrack/Repo/OrderTrackRepo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56">
+               </Location>
+               <Location
+                  uuid = "C67DEFAC-0A82-40FD-BF78-E5856A16C599 - c4babb4e4d7b7d71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;Goodz_Stage.ResponseModel&lt;Goodz_Stage.OrderTrackDataModel&gt;&gt;&gt;, Goodz_Stage.NetworkError&gt;) -&gt; () in Goodz_Stage.OrderTrackRepo.trackOrderStatusAPI(orderID: Swift.String, _: (Swift.Bool, Swift.Optional&lt;Swift.Array&lt;Goodz_Stage.OrderTrackDataModel&gt;&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Goodz Stage.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shobhitdhuriya/Documents/GitHub/GOODZVELocal/Goodz/Goodz/Controllers/MyAccount/Cart%20nd%20Checkout/OrderTrack/Repo/OrderTrackRepo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B269D25-8E64-4108-89E4-1D642B5A1BA2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/Controllers/MyAccount/Cart nd Checkout/OrderTrack/Repo/OrderTrackRepo.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "trackOrderStatusAPI(orderID:_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2B269D25-8E64-4108-89E4-1D642B5A1BA2 - c4babb4e4d7b7dd2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;Goodz_Stage.ResponseModel&lt;Goodz_Stage.OrderTrackDataModel&gt;&gt;&gt;, Goodz_Stage.NetworkError&gt;) -&gt; () in Goodz_Stage.OrderTrackRepo.trackOrderStatusAPI(orderID: Swift.String, _: (Swift.Bool, Swift.Optional&lt;Swift.Array&lt;Goodz_Stage.OrderTrackDataModel&gt;&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Goodz Stage.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shobhitdhuriya/Documents/GitHub/GOODZVELocal/Goodz/Goodz/Controllers/MyAccount/Cart%20nd%20Checkout/OrderTrack/Repo/OrderTrackRepo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59">
+               </Location>
+               <Location
+                  uuid = "2B269D25-8E64-4108-89E4-1D642B5A1BA2 - c4babb4e4d7b7dd2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;Goodz_Stage.ResponseModel&lt;Goodz_Stage.OrderTrackDataModel&gt;&gt;&gt;, Goodz_Stage.NetworkError&gt;) -&gt; () in Goodz_Stage.OrderTrackRepo.trackOrderStatusAPI(orderID: Swift.String, _: (Swift.Bool, Swift.Optional&lt;Swift.Array&lt;Goodz_Stage.OrderTrackDataModel&gt;&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Goodz Stage.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shobhitdhuriya/Documents/GitHub/GOODZVELocal/Goodz/Goodz/Controllers/MyAccount/Cart%20nd%20Checkout/OrderTrack/Repo/OrderTrackRepo.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "44FFF5EB-2CA2-4BE5-AE5C-FC5867B16572"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/Controllers/MyAccount/AccountFlow/EditProfile/EditProfileVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "357"
+            endingLineNumber = "357"
+            landmarkName = "btnUpdateTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "44FFF5EB-2CA2-4BE5-AE5C-FC5867B16572 - c6931c40884b62a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.String&gt;) -&gt; () in closure #1 (Swift.Bool) -&gt; () in closure #1 (Swift.Bool) -&gt; () in Goodz_Stage.EditProfile.btnUpdateTapped(Any) -&gt; ()"
+                  moduleName = "Goodz Stage.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shobhitdhuriya/Documents/GitHub/GOODZVELocal/Goodz/Goodz/Controllers/MyAccount/AccountFlow/EditProfile/EditProfileVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "357"
+                  endingLineNumber = "357">
+               </Location>
+               <Location
+                  uuid = "44FFF5EB-2CA2-4BE5-AE5C-FC5867B16572 - c6931c40884b62a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.String&gt;) -&gt; () in closure #1 (Swift.Bool) -&gt; () in closure #1 (Swift.Bool) -&gt; () in Goodz_Stage.EditProfile.btnUpdateTapped(Any) -&gt; ()"
+                  moduleName = "Goodz Stage.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shobhitdhuriya/Documents/GitHub/GOODZVELocal/Goodz/Goodz/Controllers/MyAccount/AccountFlow/EditProfile/EditProfileVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "357"
+                  endingLineNumber = "357">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "46FEDBAA-E3C7-4EC7-9A8A-ABA92345124C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/Controllers/MyAccount/AccountFlow/Notification/NotificationVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "pushNavigation(pushtype:orderID:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BD56D683-74CF-4F57-8090-0D12C3A73345"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/Controllers/Authentication/Login/LoginVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "191"
+            endingLineNumber = "191"
+            landmarkName = "btnLoginTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D763D96-ACCE-4EE6-8AF3-72858AC089AA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "427"
+            endingLineNumber = "427"
+            landmarkName = "multiFormDataRequest(with:responseModel:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A20CF018-881D-40ED-832D-534531D83F44"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "230"
+            endingLineNumber = "230"
+            landmarkName = "rawDataRequest(with:rawData:responseModel:completionHandler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1EF4D44D-6DFB-4A01-ADAB-B7C3F3DC15A2"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E239495E-40CA-43B4-8A6F-701610F0A185"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/Controllers/Chat/ChatDetail/SuggetionChat/SuggestionChatView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E239495E-40CA-43B4-8A6F-701610F0A185 - d936de42db3343bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Goodz.SuggestionChatView.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "Goodz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyanka.p/Documents/Priyanka/Projects/goodzios/Goodz/Goodz/Controllers/Chat/ChatDetail/SuggetionChat/SuggestionChatView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "E239495E-40CA-43B4-8A6F-701610F0A185 - d936de42db3343bb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Goodz.SuggestionChatView.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "Goodz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyanka.p/Documents/Priyanka/Projects/goodzios/Goodz/Goodz/Controllers/Chat/ChatDetail/SuggetionChat/SuggestionChatView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "232">
+               </Location>
+               <Location
+                  uuid = "E239495E-40CA-43B4-8A6F-701610F0A185 - ce64b2a1c423a7fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Goodz.SuggestionChatView.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "Goodz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyanka.p/Documents/Priyanka/Staging/goodzios/Goodz/Goodz/Controllers/Chat/ChatDetail/SuggetionChat/SuggestionChatView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "232">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "205607D1-176F-4A1B-AC7C-F21FB7F89493"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/Controllers/Chat/ChatDetail/ChatDetail+DataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "205607D1-176F-4A1B-AC7C-F21FB7F89493 - a9b0de02f8eee025"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Goodz.ChatDetailVC.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "Goodz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyanka.p/Documents/Priyanka/Projects/goodzios/Goodz/Goodz/Controllers/Chat/ChatDetail/ChatDetail+DataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "1900">
+               </Location>
+               <Location
+                  uuid = "205607D1-176F-4A1B-AC7C-F21FB7F89493 - a9b0de02f8eee025"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Goodz.ChatDetailVC.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "Goodz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyanka.p/Documents/Priyanka/Projects/goodzios/Goodz/Goodz/Controllers/Chat/ChatDetail/ChatDetail+DataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "1872">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "283BFA35-4242-40F2-8870-540D3B240929"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/Controllers/Chat/ChatDetail/ChatDetail+DataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "283BFA35-4242-40F2-8870-540D3B240929 - a9b0de02f8eeed32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Goodz.ChatDetailVC.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "Goodz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyanka.p/Documents/Priyanka/Projects/goodzios/Goodz/Goodz/Controllers/Chat/ChatDetail/ChatDetail+DataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "5292">
+               </Location>
+               <Location
+                  uuid = "283BFA35-4242-40F2-8870-540D3B240929 - a9b0de02f8eeed32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Goodz.ChatDetailVC.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "Goodz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyanka.p/Documents/Priyanka/Projects/goodzios/Goodz/Goodz/Controllers/Chat/ChatDetail/ChatDetail+DataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "5264">
+               </Location>
+               <Location
+                  uuid = "283BFA35-4242-40F2-8870-540D3B240929 - 95e10dd5e6ea005f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Goodz.ChatDetailVC.tableView(_: __C.UITableView, cellForRowAt: Foundation.IndexPath) -&gt; __C.UITableViewCell"
+                  moduleName = "Goodz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyanka.p/Documents/Priyanka/Staging/goodzios/Goodz/Goodz/Controllers/Chat/ChatDetail/ChatDetail+DataSource.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "5264">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40F9289C-6D35-4A00-8955-466933E8E0B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/Controllers/Authentication/Login/LoginVM.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "checkLoginData(email:password:firebaseToken:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "40F9289C-6D35-4A00-8955-466933E8E0B4 - 7b8c7557b79a01e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Array&lt;Goodz.LoginModel&gt;&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; () in Goodz.LoginVM.checkLoginData(email: Swift.String, password: Swift.String, firebaseToken: Swift.String, completion: (Swift.Bool, Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "Goodz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyanka.p/Documents/Priyanka/Projects/goodzios/Goodz/Goodz/Controllers/Authentication/Login/LoginVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1068">
+               </Location>
+               <Location
+                  uuid = "40F9289C-6D35-4A00-8955-466933E8E0B4 - 450a154459d2da40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Array&lt;Goodz.LoginModel&gt;&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; () in Goodz.LoginVM.checkLoginData(email: Swift.String, password: Swift.String, firebaseToken: Swift.String, completion: (Swift.Bool, Swift.Array&lt;Goodz.LoginModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Goodz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyanka.p/Documents/Priyanka/Projects/goodzios/Goodz/Goodz/Controllers/Authentication/Login/LoginVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1068">
+               </Location>
+               <Location
+                  uuid = "40F9289C-6D35-4A00-8955-466933E8E0B4 - b5a6f5aa12f37a51"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool, Swift.Optional&lt;Swift.Array&lt;Goodz.LoginModel&gt;&gt;, Swift.Optional&lt;Swift.String&gt;) -&gt; () in Goodz.LoginVM.checkLoginData(email: Swift.String, password: Swift.String, firebaseToken: Swift.String, completion: (Swift.Bool, Swift.Array&lt;Goodz.LoginModel&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Goodz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyanka.p/Documents/Priyanka/Staging/goodzios/Goodz/Goodz/Controllers/Authentication/Login/LoginVM.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1068">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F9262A1-D5CA-45A3-8ABC-C452B091D451"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/Controllers/Authentication/OTP Varification/OTPVarification.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "228"
+            endingLineNumber = "228"
+            landmarkName = "btnVerifyTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4F9262A1-D5CA-45A3-8ABC-C452B091D451 - 9aa5e75568894547"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in Goodz.OTPVarification.btnVerifyTapped(Any) -&gt; ()"
+                  moduleName = "Goodz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyanka.p/Documents/Priyanka/Staging/goodzios/Goodz/Goodz/Controllers/Authentication/OTP%20Varification/OTPVarification.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "228"
+                  endingLineNumber = "228"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "4F9262A1-D5CA-45A3-8ABC-C452B091D451 - 19635b9008bd060"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Goodz.OTPVarification.btnVerifyTapped(Any) -&gt; ()"
+                  moduleName = "Goodz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyanka.p/Documents/Priyanka/Staging/goodzios/Goodz/Goodz/Controllers/Authentication/OTP%20Varification/OTPVarification.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "228"
+                  endingLineNumber = "228"
+                  offsetFromSymbolStart = "1940">
+               </Location>
+               <Location
+                  uuid = "4F9262A1-D5CA-45A3-8ABC-C452B091D451 - 9aa5e75568894547"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in Goodz.OTPVarification.btnVerifyTapped(Any) -&gt; ()"
+                  moduleName = "Goodz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/priyanka.p/Documents/Priyanka/Staging/goodzios/Goodz/Goodz/Controllers/Authentication/OTP%20Varification/OTPVarification.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "228"
+                  endingLineNumber = "228"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF02D6C8-FA5F-489B-8F8A-18FD24E061D0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/Controllers/Authentication/OTP Varification/OTPVarification.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "231"
+            endingLineNumber = "231"
+            landmarkName = "btnVerifyTapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

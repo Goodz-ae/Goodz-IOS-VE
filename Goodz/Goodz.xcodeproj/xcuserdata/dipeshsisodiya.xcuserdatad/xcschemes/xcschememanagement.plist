@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Goodz(Dev).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>108</integer>
+		</dict>
+		<key>Goodz(QA).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>109</integer>
+		</dict>
+		<key>Goodz(Stage).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>110</integer>
+		</dict>
+		<key>GoodzRelease.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>111</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2E8722892B16F9B600D91D11</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

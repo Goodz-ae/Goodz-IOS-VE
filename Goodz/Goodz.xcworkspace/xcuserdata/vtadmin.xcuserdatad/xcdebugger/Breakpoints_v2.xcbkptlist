@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E851E1EA-4617-4BCA-989A-8F15B2E40C69"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            uuid = "E500FD36-6197-4224-A66B-B6A473D6DE1E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            breakpointStackSelectionBehavior = "1"
+            scope = "1"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B417E15A-C0F6-40EE-A1AC-33B465CC3A49"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/Controllers/Home/Sort/SortVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "SortVC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "B417E15A-C0F6-40EE-A1AC-33B465CC3A49 - bb55e6682c9fdbd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Goodz_Stage.SortVC.arrSort.getter : Swift.Array&lt;Goodz_Stage.SortModel&gt;"
+                  moduleName = "Goodz Stage.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vtadmin/Desktop/VISHAL%20NAYEE%20Project/Goodz/Goodz_Stage/goodzios/Goodz/Goodz/Controllers/Home/Sort/SortVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "B417E15A-C0F6-40EE-A1AC-33B465CC3A49 - c3d3b74a22edcc1f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Goodz_Stage.SortVC.arrSort.setter : Swift.Array&lt;Goodz_Stage.SortModel&gt;"
+                  moduleName = "Goodz Stage.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vtadmin/Desktop/VISHAL%20NAYEE%20Project/Goodz/Goodz_Stage/goodzios/Goodz/Goodz/Controllers/Home/Sort/SortVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26">
+               </Location>
+               <Location
+                  uuid = "B417E15A-C0F6-40EE-A1AC-33B465CC3A49 - e29a3dfe9341e24e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Goodz_Stage.SortVC.arrSort.modify : Swift.Array&lt;Goodz_Stage.SortModel&gt;"
+                  moduleName = "Goodz Stage.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vtadmin/Desktop/VISHAL%20NAYEE%20Project/Goodz/Goodz_Stage/goodzios/Goodz/Goodz/Controllers/Home/Sort/SortVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26">
+               </Location>
+               <Location
+                  uuid = "B417E15A-C0F6-40EE-A1AC-33B465CC3A49 - d53999fdcb87334b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Goodz_Stage.SortVC.arrSort.modify : Swift.Array&lt;Goodz_Stage.SortModel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Goodz Stage.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "B417E15A-C0F6-40EE-A1AC-33B465CC3A49 - 4a0e87d1b90906ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Goodz_Stage.SortVC.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Goodz_Stage.SortVC"
+                  moduleName = "Goodz Stage.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vtadmin/Desktop/VISHAL%20NAYEE%20Project/Goodz/Goodz_Stage/goodzios/Goodz/Goodz/Controllers/Home/Sort/SortVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26">
+               </Location>
+               <Location
+                  uuid = "B417E15A-C0F6-40EE-A1AC-33B465CC3A49 - 1ad648bb939ac571"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Goodz_Stage.SortVC.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Goodz_Stage.SortVC&gt;"
+                  moduleName = "Goodz Stage.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vtadmin/Desktop/VISHAL%20NAYEE%20Project/Goodz/Goodz_Stage/goodzios/Goodz/Goodz/Controllers/Home/Sort/SortVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0C189F0-661F-4ABB-AC8A-20467F9C5690"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Goodz/LableManager/Labels.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "Labels"
+            landmarkType = "21">
+            <Locations>
+               <Location
+                  uuid = "C0C189F0-661F-4ABB-AC8A-20467F9C5690 - aa2290a2f4d01186"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "one-time initialization function for addPhotoAndVideoDesc3"
+                  moduleName = "Goodz Stage.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vtadmin/Desktop/VISHAL%20NAYEE%20Project/Goodz/Goodz_Stage/goodzios/Goodz/Goodz/LableManager/Labels.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94">
+               </Location>
+               <Location
+                  uuid = "C0C189F0-661F-4ABB-AC8A-20467F9C5690 - a5fd0693013dde55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Goodz_Stage.Labels.addPhotoAndVideoDesc3.unsafeMutableAddressor : Swift.String"
+                  moduleName = "Goodz Stage.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vtadmin/Desktop/VISHAL%20NAYEE%20Project/Goodz/Goodz_Stage/goodzios/Goodz/Goodz/LableManager/Labels.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

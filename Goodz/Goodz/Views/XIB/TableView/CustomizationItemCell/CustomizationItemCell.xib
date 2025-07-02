@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="53" id="KGk-i7-Jjw" customClass="CustomizationItemCell" customModule="Goodz" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="53"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="53"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RJp-41-Nr0">
+                        <rect key="frame" x="24" y="0.0" width="272" height="53"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uci-pz-lCH">
+                                <rect key="frame" x="0.0" y="52" width="272" height="1"/>
+                                <color key="backgroundColor" name="ThemeBorder"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="ya9-Na-2nv"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="jHv-kQ-FNo">
+                                <rect key="frame" x="16" y="16" width="240" height="21"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sSY-bj-QFx">
+                                        <rect key="frame" x="0.0" y="0.0" width="21" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="sSY-bj-QFx" secondAttribute="height" id="Jxw-Wh-s4V"/>
+                                        </constraints>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" image="icon_uncheck_box"/>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tu5-p5-kf8">
+                                        <rect key="frame" x="33" y="0.0" width="207" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jHv-kQ-FNo" firstAttribute="leading" secondItem="RJp-41-Nr0" secondAttribute="leading" constant="16" id="3V2-Ks-MiR"/>
+                            <constraint firstItem="uci-pz-lCH" firstAttribute="leading" secondItem="RJp-41-Nr0" secondAttribute="leading" id="C9K-ay-W8G"/>
+                            <constraint firstAttribute="bottom" secondItem="jHv-kQ-FNo" secondAttribute="bottom" constant="16" id="Gd2-af-pD6"/>
+                            <constraint firstAttribute="bottom" secondItem="uci-pz-lCH" secondAttribute="bottom" id="STt-Qe-sHj"/>
+                            <constraint firstAttribute="trailing" secondItem="uci-pz-lCH" secondAttribute="trailing" id="T3V-3k-bHv"/>
+                            <constraint firstItem="jHv-kQ-FNo" firstAttribute="top" secondItem="RJp-41-Nr0" secondAttribute="top" constant="16" id="fYd-nb-hFY"/>
+                            <constraint firstAttribute="trailing" secondItem="jHv-kQ-FNo" secondAttribute="trailing" constant="16" id="p8t-TV-fP8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="RJp-41-Nr0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="IIa-bP-OkW"/>
+                    <constraint firstAttribute="bottom" secondItem="RJp-41-Nr0" secondAttribute="bottom" id="fEr-Bl-gwd"/>
+                    <constraint firstAttribute="trailing" secondItem="RJp-41-Nr0" secondAttribute="trailing" constant="24" id="fS2-X1-fhf"/>
+                    <constraint firstItem="RJp-41-Nr0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="24" id="jKr-7Z-KeD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="btnSelect" destination="sSY-bj-QFx" id="nH3-4y-3v4"/>
+                <outlet property="lblTitle" destination="tu5-p5-kf8" id="c1O-bm-U7P"/>
+                <outlet property="vwMain" destination="RJp-41-Nr0" id="aBx-ro-nBM"/>
+                <outlet property="vwSeperator" destination="uci-pz-lCH" id="in7-rl-KHq"/>
+            </connections>
+            <point key="canvasLocation" x="112.97709923664122" y="23.591549295774648"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_uncheck_box" width="22" height="22"/>
+        <namedColor name="ThemeBorder">
+            <color red="0.8784313725490196" green="0.88235294117647056" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

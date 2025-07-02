@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Ageo-Medium.ttf">
+            <string>Ageo-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CountyDetailCell" rowHeight="74" id="KGk-i7-Jjw" customClass="CountyDetailCell" customModule="Goodz" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="329" height="74"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="329" height="74"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qIK-Uh-LWn">
+                        <rect key="frame" x="0.0" y="0.0" width="329" height="74"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vIl-76-S08">
+                                <rect key="frame" x="15" y="10" width="299" height="54"/>
+                                <subviews>
+                                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="740" image="india" translatesAutoresizingMaskIntoConstraints="NO" id="EVU-im-uvr">
+                                        <rect key="frame" x="0.0" y="0.0" width="0.0" height="54"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5p5-9u-gwM">
+                                        <rect key="frame" x="0.0" y="0.0" width="252" height="54"/>
+                                        <fontDescription key="fontDescription" name="Ageo-Medium" family="Ageo" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZh-91-5bG">
+                                        <rect key="frame" x="262" y="0.0" width="37" height="54"/>
+                                        <fontDescription key="fontDescription" name="Ageo-Medium" family="Ageo" pointSize="15"/>
+                                        <color key="textColor" name="Black"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vIl-76-S08" firstAttribute="top" secondItem="qIK-Uh-LWn" secondAttribute="top" constant="10" id="S5L-R6-8hp"/>
+                            <constraint firstItem="vIl-76-S08" firstAttribute="leading" secondItem="qIK-Uh-LWn" secondAttribute="leading" constant="15" id="fkP-Qa-qiS"/>
+                            <constraint firstAttribute="bottom" secondItem="vIl-76-S08" secondAttribute="bottom" constant="10" id="mPL-aU-wp3"/>
+                            <constraint firstAttribute="trailing" secondItem="vIl-76-S08" secondAttribute="trailing" constant="15" id="wnA-vX-N2m"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qIK-Uh-LWn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Abd-TH-yPk"/>
+                    <constraint firstAttribute="trailing" secondItem="qIK-Uh-LWn" secondAttribute="trailing" id="QWn-a5-djE"/>
+                    <constraint firstAttribute="bottom" secondItem="qIK-Uh-LWn" secondAttribute="bottom" id="sxg-O9-fW3"/>
+                    <constraint firstItem="qIK-Uh-LWn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="uCR-wp-AjL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgView" destination="EVU-im-uvr" id="b1C-S7-Mim"/>
+                <outlet property="lblCountryCode" destination="XZh-91-5bG" id="v07-Xd-Zj9"/>
+                <outlet property="lblTitle" destination="5p5-9u-gwM" id="ecg-my-hBM"/>
+            </connections>
+            <point key="canvasLocation" x="158.69565217391306" y="95.758928571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="india" width="512" height="512"/>
+        <namedColor name="Black">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

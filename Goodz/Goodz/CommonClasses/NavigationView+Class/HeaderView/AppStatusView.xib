@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AppStatusView" customModule="Goodz" customModuleProvider="target">
+            <connections>
+                <outlet property="btnBack" destination="lXT-sg-IxT" id="go6-nc-Xvu"/>
+                <outlet property="btnRight" destination="a1d-qX-krg" id="HDU-Nz-ffZ"/>
+                <outlet property="lblTitle" destination="t53-vU-of3" id="TzH-4Z-ATv"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="334" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Labelvdfvfdvdfvdfbvdfb" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t53-vU-of3">
+                    <rect key="frame" x="54" y="0.0" width="226" height="44"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lXT-sg-IxT">
+                    <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="lXT-sg-IxT" secondAttribute="height" id="qrr-kx-tay"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="icon_back"/>
+                    <connections>
+                        <action selector="actionBtnBack:" destination="-1" eventType="touchUpInside" id="aog-wc-mBp"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1d-qX-krg">
+                    <rect key="frame" x="290" y="0.0" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="a1d-qX-krg" secondAttribute="height" id="rD5-UU-Qzc"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <connections>
+                        <action selector="actionBtnRight:" destination="-1" eventType="touchUpInside" id="Hq7-Q9-jlO"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="a1d-qX-krg" firstAttribute="leading" secondItem="t53-vU-of3" secondAttribute="trailing" constant="10" id="GsA-d1-Ur2"/>
+                <constraint firstItem="lXT-sg-IxT" firstAttribute="top" secondItem="t53-vU-of3" secondAttribute="top" id="HsU-Sv-fec"/>
+                <constraint firstItem="a1d-qX-krg" firstAttribute="top" secondItem="lXT-sg-IxT" secondAttribute="top" id="QlH-8n-A05"/>
+                <constraint firstItem="lXT-sg-IxT" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="UZ1-ho-Hds"/>
+                <constraint firstAttribute="bottom" secondItem="t53-vU-of3" secondAttribute="bottom" id="XTA-Kv-bDy"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="a1d-qX-krg" secondAttribute="trailing" id="oEy-Y2-hjs"/>
+                <constraint firstItem="t53-vU-of3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="t7f-hV-JKm"/>
+                <constraint firstItem="t53-vU-of3" firstAttribute="leading" secondItem="lXT-sg-IxT" secondAttribute="trailing" constant="10" id="uNK-TP-obo"/>
+                <constraint firstItem="a1d-qX-krg" firstAttribute="bottom" secondItem="lXT-sg-IxT" secondAttribute="bottom" id="wlW-F3-Z8a"/>
+                <constraint firstItem="t53-vU-of3" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="yt3-Fb-nIM"/>
+                <constraint firstItem="lXT-sg-IxT" firstAttribute="bottom" secondItem="t53-vU-of3" secondAttribute="bottom" id="zfX-Dd-4i4"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-68.702290076335871" y="-359.15492957746483"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_back" width="24" height="24"/>
+    </resources>
+</document>

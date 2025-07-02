@@ -1,0 +1,14 @@
+//
+//  DevConfig.xcconfig
+//  Goodz
+//
+//  Created by Jigz's-Macbook   on 01/04/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BASE_URL = http:/\/192.168.1.140:8000/api/v1/
+BACKEND_URL = http:/\/192.168.1.140:8000/
+App_Display_Name = Goodz Dev
+

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="SlotBookingCollViewCell" id="gTV-IL-0wX" customClass="SlotBookingCollViewCell" customModule="Goodz" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="152"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="280" height="152"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="On3-ae-0op">
+                        <rect key="frame" x="0.0" y="5" width="280" height="142"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="us2-CX-bqz">
+                                <rect key="frame" x="0.0" y="0.0" width="280" height="142"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qlp-uI-Xnw">
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="142"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yL3-4K-URw">
+                                                <rect key="frame" x="123.99999999999999" y="10" width="32.333333333333329" height="122"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TUE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TUl-3E-sCl">
+                                                        <rect key="frame" x="0.0" y="0.0" width="32.333333333333336" height="122"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="yL3-4K-URw" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Qlp-uI-Xnw" secondAttribute="leading" constant="10" id="BWJ-qE-utv"/>
+                                            <constraint firstAttribute="bottom" secondItem="yL3-4K-URw" secondAttribute="bottom" constant="10" id="MTh-Lj-Bpk"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="yL3-4K-URw" secondAttribute="trailing" constant="10" id="S9L-nQ-ccY"/>
+                                            <constraint firstItem="yL3-4K-URw" firstAttribute="centerX" secondItem="Qlp-uI-Xnw" secondAttribute="centerX" id="d5P-M5-dKy"/>
+                                            <constraint firstItem="yL3-4K-URw" firstAttribute="top" secondItem="Qlp-uI-Xnw" secondAttribute="top" constant="10" id="uEH-od-GOs"/>
+                                            <constraint firstItem="yL3-4K-URw" firstAttribute="centerY" secondItem="Qlp-uI-Xnw" secondAttribute="centerY" id="xqz-mc-pJC"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                <real key="value" value="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                <color key="value" name="ThemeBG"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="us2-CX-bqz" secondAttribute="trailing" id="32G-Ky-Gn6"/>
+                            <constraint firstItem="us2-CX-bqz" firstAttribute="centerX" secondItem="On3-ae-0op" secondAttribute="centerX" id="CRh-ms-beh"/>
+                            <constraint firstItem="us2-CX-bqz" firstAttribute="leading" secondItem="On3-ae-0op" secondAttribute="leading" id="FMH-5B-Akn"/>
+                            <constraint firstItem="us2-CX-bqz" firstAttribute="top" secondItem="On3-ae-0op" secondAttribute="top" id="iHd-0j-yeL"/>
+                            <constraint firstItem="us2-CX-bqz" firstAttribute="centerY" secondItem="On3-ae-0op" secondAttribute="centerY" id="ieT-Ds-pOu"/>
+                            <constraint firstAttribute="bottom" secondItem="us2-CX-bqz" secondAttribute="bottom" id="zLO-Qt-Roj"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="On3-ae-0op" secondAttribute="bottom" constant="5" id="G3W-qO-giL"/>
+                <constraint firstItem="On3-ae-0op" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="OsD-If-eRu"/>
+                <constraint firstAttribute="trailing" secondItem="On3-ae-0op" secondAttribute="trailing" id="f3k-Ab-2kP"/>
+                <constraint firstItem="On3-ae-0op" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="oBC-Zp-UEc"/>
+            </constraints>
+            <size key="customSize" width="280" height="152"/>
+            <connections>
+                <outlet property="selectedTimeView" destination="Qlp-uI-Xnw" id="FW4-vB-Di2"/>
+                <outlet property="timeLab" destination="TUl-3E-sCl" id="Mru-HW-qGb"/>
+            </connections>
+            <point key="canvasLocation" x="287.02290076335879" y="-9.8591549295774659"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="ThemeBG">
+            <color red="0.95686274509803926" green="0.96470588235294119" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
